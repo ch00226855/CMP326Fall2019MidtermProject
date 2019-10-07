@@ -28,6 +28,8 @@ The program contains the following classes: (See Javadocs for detailed descripti
 Each student is required to present the program in class. Grading rubric is as follows:
 	Pts
 	
+|Item                                              | Score|
+|--------------------------------------------------|------|
 |Student presents the program on presentation day|	10|
 |The program can create a player object	|10|
 |The program generates a dungeon properly	|10|
@@ -37,7 +39,7 @@ Each student is required to present the program in class. Grading rubric is as f
 |The program finished a player-monster battle.	|10|
 |The game was completed properly.	|10|
 |The program handles negative player hitpoints correctly	|5|
-|The program handles negative damages correctly	5
+|The program handles negative damages correctly	|5|
 |The game play messages were correctly written to the GameLog.txt file	|10|
 |Total	|100|
 
