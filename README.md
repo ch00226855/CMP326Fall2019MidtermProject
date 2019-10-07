@@ -12,15 +12,16 @@ The program contains the following classes: (See Javadocs for detailed descripti
 7.	A MyGame class that implements interface Game with attributes player and dungeon. Dungeon is an array of 3 MyRoom objects. There is a constructor that constructs the player object using information from a file, and constructs three monsters and three rooms with attributed given in the tables below. There is a play() method that let the player enter the dungeon rooms one by one until the player dies or clears all rooms. The method also updates the GameLog file as player progresses. 
 8.	Finally, the MyGame class has a static main method that instantiates a MyGame object and runs the game.
 
-Monster Name	Room Index	Description	Hit Points	Attack Damage	Enrage Threshold
+|Monster Name	|Room Index	|Description	|Hit Points	|Attack Damage	|Enrage Threshold|
 
-Orc	0	Covered with green blood	20	5	0
+|Orc	|0	|Covered with green blood	|20	|5	|0
 
-Skeleton	1	Funny how it moves	40	10	10
+|Skeleton	|1	|Funny how it moves	|40	|10	|10
 
-Fire Dragon	2	Spout fire with each breath	100	20	40
+|Fire Dragon	|2	|Spout fire with each breath	|100	|20	|40
 
-Room Index	Description	Monster in the Room
+
+|Room Index	|Description	|Monster in the Room
 
 0	A room with an unbearable smell	Orc
 
