@@ -15,18 +15,14 @@ The program contains the following classes: (See Javadocs for detailed descripti
 |Monster Name	|Room Index	|Description	|Hit Points	|Attack Damage	|Enrage Threshold|
 |---------------|---------------|---------------|---------------|---------------|----------------|
 |Orc	|0	|Covered with green blood	|20	|5	|0|
-
 |Skeleton	|1	|Funny how it moves	|40	|10	|10|
-
 |Fire Dragon	|2	|Spout fire with each breath	|100	|20	|40|
 
 
 |Room Index	|Description	|Monster in the Room|
 |---------------|---------------|-------------------|
 |0	|A room with an unbearable smell	|Orc|
-
 |1	|Dark and cold	|Skeleton|
-
 |2	|A giant hall with something shiny on the other end	|Fire Dragon|
 
 Each student is required to present the program in class. Grading rubric is as follows:
