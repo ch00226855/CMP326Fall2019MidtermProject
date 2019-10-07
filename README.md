@@ -1,11 +1,5 @@
 # CMP 326 Midterm Project: Text-Based Adventure Game
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
 In this project you will create a simple text-based adventure game. The game will create a player object using information from a file, build a dungeon of three rooms each containing a monster, and allow the player to challenge the monster one-by-one and explore for treasure. The game will display messages on the screen to tell user what happens. It also creates a log file that keeps a record of the game.
 The program contains the following classes: (See Javadocs for detailed descriptions)
 
@@ -20,20 +14,20 @@ The program contains the following classes: (See Javadocs for detailed descripti
 
 |Monster Name	|Room Index	|Description	|Hit Points	|Attack Damage	|Enrage Threshold|
 |---------------|---------------|---------------|---------------|---------------|----------------|
-|Orc	|0	|Covered with green blood	|20	|5	|0
+|Orc	|0	|Covered with green blood	|20	|5	|0|
 
-|Skeleton	|1	|Funny how it moves	|40	|10	|10
+|Skeleton	|1	|Funny how it moves	|40	|10	|10|
 
-|Fire Dragon	|2	|Spout fire with each breath	|100	|20	|40
+|Fire Dragon	|2	|Spout fire with each breath	|100	|20	|40|
 
 
-|Room Index	|Description	|Monster in the Room
+|Room Index	|Description	|Monster in the Room|
+|---------------|---------------|-------------------|
+|0	|A room with an unbearable smell	|Orc|
 
-0	A room with an unbearable smell	Orc
+|1	|Dark and cold	|Skeleton|
 
-1	Dark and cold	Skeleton
-
-2	A giant hall with something shiny on the other end	Fire Dragon
+|2	|A giant hall with something shiny on the other end	|Fire Dragon|
 
 Each student is required to present the program in class. Grading rubric is as follows:
 	Pts
