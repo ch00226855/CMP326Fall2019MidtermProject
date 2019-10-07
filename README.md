@@ -1,7 +1,7 @@
 # CMP 326 Midterm Project: Text-Based Adventure Game
 
 In this project you will create a simple text-based adventure game. The game will create a player object using information from a file, build a dungeon of three rooms each containing a monster, and allow the player to challenge the monster one-by-one and explore for treasure. The game will display messages on the screen to tell user what happens. It also creates a log file that keeps a record of the game.
-The program contains the following classes: (See Javadocs for detailed descriptions)
+The program contains the following classes: (See [Javadocs](https://htmlpreview.github.io/?https://github.com/ch00226855/CMP326Fall2019MidtermProject/blob/master/javadocs/index.html) for detailed descriptions)
 
 1.	A MyCreature class that implements interface Creature with attributes name, description, hitPoints, damage, and room. A creature object can attack and take damage. It also has an isAlive() method and a toString() method.
 2.	A MyPlayer class that inherits MyCreature and implements interface Player. A player has an attribute healAmount, and a heal() method that increase player’s hitPoints by healAmount.
