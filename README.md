@@ -19,7 +19,7 @@ The program contains the following classes: (See Javadocs for detailed descripti
 8.	Finally, the MyGame class has a static main method that instantiates a MyGame object and runs the game.
 
 |Monster Name	|Room Index	|Description	|Hit Points	|Attack Damage	|Enrage Threshold|
-
+|---------------|---------------|---------------|---------------|---------------|----------------|
 |Orc	|0	|Covered with green blood	|20	|5	|0
 
 |Skeleton	|1	|Funny how it moves	|40	|10	|10
